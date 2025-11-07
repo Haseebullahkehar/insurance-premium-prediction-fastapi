@@ -5,6 +5,7 @@ from schema.prediction_response import PredictionResponse
 import os
 from model.predict import predict_output, model, MODEL_VESION, pd
 
+
 # ✅ Initialize app
 app = FastAPI(title="Insurance Premium Prediction API")
 
